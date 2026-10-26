@@ -12,6 +12,7 @@
 
 **Stakeholders.** Public-health analysts, policy makers, journalists.
 
+---
 **Key questions**
 1. How many cases and deaths were recorded globally, and when did the waves peak?
 2. Which countries had the most cases, deaths and highest fatality rates?
