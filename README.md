@@ -64,8 +64,8 @@ tidy = (conf.stack().rename("confirmed").to_frame()                    # 5. tidy
 | 7 | Non-country rows: `Diamond Princess`, `MS Zaandam`, `Summer Olympics 2020`, `Winter Olympics 2022`, `Antarctica` | Drop for country analysis |
 | 8 | No population in the global files | Merge [UID_ISO_FIPS_LookUp_Table.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/UID_ISO_FIPS_LookUp_Table.csv) for per-million rates |
 | 9 | US files: 115 rows with `Population = 0` ("Unassigned", "Out of …", cruise ships) | Exclude them from per-capita rates |
-| 11 | Deaths > confirmed on some dates (North Korea, Sudan, UK) | Reporting errors; flag them and exclude those country-days from CFR |
-| 10 | Day-of-week reporting artefacts (weekend dips) | Use 7-day rolling averages |
+| 10 | Deaths > confirmed on some dates (North Korea, Sudan, UK) | Reporting errors; flag them and exclude those country-days from CFR |
+| 11 | Day-of-week reporting artefacts (weekend dips) | Use 7-day rolling averages |
 
 ---
 
