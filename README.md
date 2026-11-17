@@ -1,6 +1,8 @@
-# COVID-19 Analysis
+## COVID-19 Analysis
 
-**Module:** Python (pandas, matplotlib/seaborn, plotly)  **Dataset:** [Johns Hopkins CSSE COVID-19 time series](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) (CC BY 4.0, final update 10 Mar 2023)  **Column profile:** [DATA_PROFILE.md](DATA_PROFILE.md)
+**Module:** Python (pandas, matplotlib/seaborn, plotly) 
+**Dataset:** [Johns Hopkins CSSE COVID-19 time series](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) (CC BY 4.0, final update 10 Mar 2023) 
+**Column profile:** [DATA_PROFILE.md](DATA_PROFILE.md)
 
 ---
 
